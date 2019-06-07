@@ -19,7 +19,7 @@ body {
 	background-color: #e96443;
 	background: linear-gradient(45deg, #e96443 0%, #904e95 100%);
 	background-attachment: fixed;
-	color: $mineShaft;
+	color: #262626;
 	font-family: 'Nunito', sans-serif;
 }
 
