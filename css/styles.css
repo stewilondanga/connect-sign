@@ -157,7 +157,7 @@ a {
 	font-size: 1rem;
 
 	&:focus {
-		border-bottom-color: $burntSienna;
+		border-bottom-color: #e96443;
 	}
 
 	+ .label {
