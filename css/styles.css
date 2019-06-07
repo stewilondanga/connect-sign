@@ -209,7 +209,7 @@ a {
 
 	&:checked + .label::after {
 		animation: scaleUp 0.3s ease-in forwards;
-		background-color: $burntSienna;
+		background-color: #e96443;
 	}
 }
 
