@@ -69,7 +69,7 @@ a {
 		top: 50%;
 		width: 45%;
 		height: 1px;
-		background-color: $doveGray;
+		background-color: #707070;
 	}
 
 	&::before {
