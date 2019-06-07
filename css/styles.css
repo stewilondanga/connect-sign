@@ -117,7 +117,7 @@ a {
 		color: #ffffff;
 
 		&:hover {
-			background-color: lighten($facebook, 10%);
+			background-color: lighten(#3b5998, 10%);
 		}
 	}
 }
