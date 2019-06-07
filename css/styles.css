@@ -127,7 +127,7 @@ a {
   width: 34.375em;
   background-color: #ffffff;
   border-radius: 0.375em;
-  box-shadow: 0 5px 5px rgba($mineShaft, 0.2);
+  box-shadow: 0 5px 5px rgba(#262626, 0.2);
 }
 
 /*.containers {
