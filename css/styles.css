@@ -141,6 +141,12 @@ a {
   }
 }
 
+.label {
+  font-size: 1.25em;
+  font-weight: 600;
+  transition: all 0.2s ease-in;
+}
+
 /*.containers {
   width: 520px;
   margin: 20px auto;
