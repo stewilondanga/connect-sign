@@ -38,6 +38,13 @@ body {
   height: 1.5em;
 }
 
+h1 {
+	margin-bottom: 0.9em;
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+
 /*.containers {
   width: 520px;
   margin: 20px auto;
