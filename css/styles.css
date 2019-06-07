@@ -114,7 +114,7 @@ a {
 
 	&-facebook {
 		background-color: $facebook;
-		color: $white;
+		color: #ffffff;
 
 		&:hover {
 			background-color: lighten($facebook, 10%);
