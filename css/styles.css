@@ -56,6 +56,32 @@ a {
   width: 100%;
 }
 
+.divider {
+	display: block;
+	position: relative;
+	margin: 1.125em 0;
+	font-size: 0.875em;
+	text-align: center;
+
+	&::before, &::after {
+		content: '';
+		position: absolute;
+		top: 50%;
+		width: 45%;
+		height: 1px;
+		background-color: $doveGray;
+	}
+
+	&::before {
+		left: 0;
+	}
+
+	&::after {
+		right: 0;
+	}
+}
+
+
 /*.containers {
   width: 520px;
   margin: 20px auto;
