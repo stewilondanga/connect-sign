@@ -104,7 +104,7 @@ a {
 	}
 
 	&-default {
-		background-color: $burntSienna;
+		background-color: #e96443;
 		color: $white;
 
 		&:hover {
