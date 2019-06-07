@@ -86,42 +86,49 @@ a {
 }
 
 .btn {
-	display: block;
-	padding: 0.75em 0;
-	width: 100%;
-	height: 2.5em;
-	border: none;
-	border-radius: 0.375em;
-	cursor: pointer;
-	font-size: 1rem;
-	font-weight: 700;
-	line-height: 1em;
-	text-align: center;
-	transition: all 0.2s ease-in;
+  display: block;
+  padding: 0.75em 0;
+  width: 100%;
+  height: 2.5em;
+  border: none;
+  border-radius: 0.375em;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1em;
+  text-align: center;
+  transition: all 0.2s ease-in;
 
-	> .icon {
-		margin-right: 0.625em;
-	}
+  >.icon {
+    margin-right: 0.625em;
+  }
 
-	&-default {
-		background-color: #e96443;
-		color: #ffffff;
+  &-default {
+    background-color: #e96443;
+    color: #ffffff;
 
-		&:hover {
-			background-color: lighten(#e96443, 10%);
-		}
-	}
+    &:hover {
+      background-color: lighten(#e96443, 10%);
+    }
+  }
 
-	&-facebook {
-		background-color: #3b5998;
-		color: #ffffff;
+  &-facebook {
+    background-color: #3b5998;
+    color: #ffffff;
 
-		&:hover {
-			background-color: lighten(#3b5998, 10%);
-		}
-	}
+    &:hover {
+      background-color: lighten(#3b5998, 10%);
+    }
+  }
 }
 
+.form {
+  padding: 3.125em 2.5em;
+  width: 34.375em;
+  background-color: $white;
+  border-radius: 0.375em;
+  box-shadow: 0 5px 5px rgba($mineShaft, 0.2);
+}
 
 /*.containers {
   width: 520px;
