@@ -147,6 +147,32 @@ a {
   transition: all 0.2s ease-in;
 }
 
+.input-field {
+	width: 100%;
+	height: 2.25em;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid $mineShaft;
+	color: $doveGray;
+	font-size: 1rem;
+
+	&:focus {
+		border-bottom-color: $burntSienna;
+	}
+
+	+ .label {
+		position: absolute;
+		top: 0.25em;
+		left: 0;
+	}
+
+	&:focus + label, +.label.active {
+		top: -1.125em;
+		font-size: 1rem;
+	}
+}
+
+
 /*.containers {
   width: 520px;
   margin: 20px auto;
