@@ -108,7 +108,7 @@ a {
 		color: #ffffff;
 
 		&:hover {
-			background-color: lighten($burntSienna, 10%);
+			background-color: lighten(#e96443, 10%);
 		}
 	}
 
