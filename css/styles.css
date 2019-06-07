@@ -213,6 +213,11 @@ a {
 	}
 }
 
+.log-in {
+	display: block;
+	text-align: center;
+}
+
 
 /*.containers {
   width: 520px;
