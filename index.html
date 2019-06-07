@@ -10,77 +10,78 @@
 <body>
 
   <div class="my_social">
-      <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
-          <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
-        </a>
-      <a href="https://stewilondanga.github.io/" class="social">
-          <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
-        </a>
-      <a href="https://twitter.com/stew_ilondanga" class="social">
-          <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
-        </a>
+    <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
+      <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
+    </a>
+    <a href="https://stewilondanga.github.io/" class="social">
+      <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
+    </a>
+    <a href="https://twitter.com/stew_ilondanga" class="social">
+      <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
+    </a>
+  </div>
+
+  <form class="form" method="post" action="post">
+    <h1>Sign Up</h1>
+
+    <div class="row">
+      <div class="signup-field signup-field-half">
+        <input type="text" id="first-name" name="sirst-name" class="input-field" required>
+        <label for="first-name" class="label">First name: *</label>
+      </div>
+
+      <div class="signup-field signup-field-half">
+        <input type="text" id="last-name" name="last-name" class="input-field" required>
+        <label for="last-name" class="label">Last name: *</label>
+      </div>
     </div>
 
-    <form class="form" method="post" action="post">
-    	<h1>Sign Up</h1>
+    <div class="row">
+      <div class="signup-field">
+        <input type="email" id="email" name="email" class="input-field" required>
+        <label for="email" class="label">Email address: *</label>
+      </div>
+    </div>
 
-    	<div class="row">
-    		<div class="signup-field signup-field-half">
-    			<input type="text" id="first-name" name="sirst-name" class="input-field" required>
-    			<label for="first-name" class="label">First name: *</label>
-    		</div>
+    <div class="row">
+      <div class="signup-field">
+        <input type="password" id="password" name="password" class="input-field" required>
+        <label for="password" class="label">Password: *</label>
+      </div>
+    </div>
 
-    		<div class="signup-field signup-field-half">
-    			<input type="text" id="last-name" name="last-name" class="input-field" required>
-    			<label for="last-name" class="label">Last name: *</label>
-    		</div>
-    	</div>
+    <div class="row">
+      <dir class="signup-field">
+        <input type="radio" id="female" value="female" name="gender" class="radio-input">
+        <label for="female" class="label">Female</label>
+        <input type="radio" id="male" value="male" name="gender" class="radio-input">
+        <label for="male" class="label">Male</label>
+      </dir>
+    </div>
 
-    	<div class="row">
-    		<div class="signup-field">
-    			<input type="email" id="email" name="email" class="input-field" required>
-    			<label for="email" class="label">Email address: *</label>
-    		</div>
-    	</div>
+    <span>By signing up you agree to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</span>
 
-    	<div class="row">
-    		<div class="signup-field">
-    			<input type="password" id="password" name="password" class="input-field" required>
-    			<label for="password" class="label">Password: *</label>
-    		</div>
-    	</div>
+    <div class="signup-buttons">
+      <button type="submit" class="btn btn-default">Sign Up</button>
+      <span class="divider">OR</span>
+      <button type="button" class="btn btn-facebook"><i class="fab fa-facebook-f icon"></i> Connect with Facebook</button>
+    </div>
 
-    	<div class="row">
-    		<dir class="signup-field">
-    			<input type="radio" id="female" value="female" name="gender" class="radio-input">
-    			<label for="female" class="label">Female</label>
-    			<input type="radio" id="male" value="male" name="gender" class="radio-input">
-    			<label for="male" class="label">Male</label>
-    		</dir>
-    	</div>
-
-    	<span>By signing up you agree to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</span>
-
-    	<div class="signup-buttons">
-    		<button type="submit" class="btn btn-default">Sign Up</button>
-    		<span class="divider">OR</span>
-    		<button type="button" class="btn btn-facebook"><i class="fab fa-facebook-f icon"></i> Connect with Facebook</button>
-    	</div>
-
-    	<span class="log-in">Already have an account? <a href="#">Log In</a>.</span>
-    </form>
+    <span class="log-in">Already have an account? <a href="#">Log In</a>.</span>
+  </form>
 
   <section id="contact">
     <div class="overlay">
       <div class="containers">
 
         <h1>
-<script>
-with(new Date)c=-new Date(y=getFullYear(),m=getMonth()).getDay(x=new Date(y,++m,0).getDate(b=-1))
-h='<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 '+' '+y+'/'+m+'<tr>'+'SuMoTuWeThFrSa'.replace(/(..)/g,'<th>$1')
-while((b++>5?b=0:b)|c<x)h+=(b?'':'<tr>')+'<td>'+(++c<1|c>x?'-':c);document.write(h+'</table>')
-</script>
-</h1>
+          <script>
+            with(new Date) c = -new Date(y = getFullYear(), m = getMonth()).getDay(x = new Date(y, ++m, 0).getDate(b = -1))
+            h = '<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 ' + ' ' + y + '/' + m + '<tr>' + 'SuMoTuWeThFrSa'.replace(/(..)/g, '<th>$1')
+            while ((b++ > 5 ? b = 0 : b) | c < x) h += (b ? '' : '<tr>') + '<td>' + (++c < 1 | c > x ? '-' : c);
+            document.write(h + '</table>')
+          </script>
+        </h1>
 
       </div>
     </div>
