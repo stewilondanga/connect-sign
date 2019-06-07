@@ -10,9 +10,9 @@ var navigate = (function() {
 const inputField = document.querySelectorAll('.input-field');
 
 [].forEach.call(inputField, elem => {
-      const label = elem.nextElementSibling;
+  const label = elem.nextElementSibling;
 
-      /*  elem.addEventListener('change', () => {
-          elem.value ? label.classList.add('active') : label.classList.remove('active');
-        });
-      });
+  elem.addEventListener('change', () => {
+    elem.value ? label.classList.add('active') : label.classList.remove('active');
+  });
+});
