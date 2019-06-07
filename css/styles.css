@@ -57,30 +57,33 @@ a {
 }
 
 .divider {
-	display: block;
-	position: relative;
-	margin: 1.125em 0;
-	font-size: 0.875em;
-	text-align: center;
+  display: block;
+  position: relative;
+  margin: 1.125em 0;
+  font-size: 0.875em;
+  text-align: center;
 
-	&::before, &::after {
-		content: '';
-		position: absolute;
-		top: 50%;
-		width: 45%;
-		height: 1px;
-		background-color: #707070;
-	}
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #707070;
+  }
 
-	&::before {
-		left: 0;
-	}
+  &::before {
+    left: 0;
+  }
 
-	&::after {
-		right: 0;
-	}
+  &::after {
+    right: 0;
+  }
 }
 
+.signup-buttons {
+  padding: 0.625em 0 1.125em;
+}
 
 /*.containers {
   width: 520px;
