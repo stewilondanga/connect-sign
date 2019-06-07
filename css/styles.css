@@ -50,6 +50,12 @@ a {
   text-decoration: none;
 }
 
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 /*.containers {
   width: 520px;
   margin: 20px auto;
