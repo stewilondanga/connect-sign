@@ -11,25 +11,19 @@ html {
 }
 
 body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: 100vh;
-	background-color: #e96443;
-	background: linear-gradient(45deg, #e96443 0%, #904e95 100%);
-	background-attachment: fixed;
-	color: #262626;
-	font-family: 'Nunito', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #e96443;
+  background: linear-gradient(45deg, #e96443 0%, #904e95 100%);
+  background-attachment: fixed;
+  color: #262626;
+  font-family: 'Nunito', sans-serif;
 }
 
-/*body {
-  text-align: center;
-  font-family: courier;
-  background-image: url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
+/*
 
 .my_social {
   position: absolute;
