@@ -7,9 +7,9 @@ var navigate = (function() {
   });
 })();
 
-/*const inputField = document.querySelectorAll('.input-field');
+const inputField = document.querySelectorAll('.input-field');
 
-[].forEach.call(inputField, elem => {
+/*[].forEach.call(inputField, elem => {
   const label = elem.nextElementSibling;
 
   elem.addEventListener('change', () => {
