@@ -85,6 +85,44 @@ a {
   padding: 0.625em 0 1.125em;
 }
 
+.btn {
+	display: block;
+	padding: 0.75em 0;
+	width: 100%;
+	height: 2.5em;
+	border: none;
+	border-radius: 0.375em;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1em;
+	text-align: center;
+	transition: all 0.2s ease-in;
+
+	> .icon {
+		margin-right: 0.625em;
+	}
+
+	&-default {
+		background-color: $burntSienna;
+		color: $white;
+
+		&:hover {
+			background-color: lighten($burntSienna, 10%);
+		}
+	}
+
+	&-facebook {
+		background-color: $facebook;
+		color: $white;
+
+		&:hover {
+			background-color: lighten($facebook, 10%);
+		}
+	}
+}
+
+
 /*.containers {
   width: 520px;
   margin: 20px auto;
