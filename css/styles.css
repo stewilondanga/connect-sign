@@ -152,7 +152,7 @@ a {
 	height: 2.25em;
 	outline: none;
 	border: none;
-	border-bottom: 1px solid $mineShaft;
+	border-bottom: 1px solid #262626;
 	color: $doveGray;
 	font-size: 1rem;
 
