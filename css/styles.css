@@ -113,7 +113,7 @@ a {
 	}
 
 	&-facebook {
-		background-color: $facebook;
+		background-color: #3b5998;
 		color: #ffffff;
 
 		&:hover {
